@@ -2,11 +2,15 @@
     "name": "@sulu/sulu-ui",
     "description": "UI elements for the SULU CMS",
     "scripts": {
-        "lint": "eslint ."
+        "lint": "eslint .",
+        "flow": "flow"
     },
     "devDependencies": {
+        "babel-eslint": "^7.1.1",
         "eslint": "^3.16.1",
-        "eslint-plugin-react": "^6.10.0"
+        "eslint-plugin-flowtype": "^2.30.0",
+        "eslint-plugin-react": "^6.10.0",
+        "flow-bin": "^0.39.0"
     },
     "license": "MIT",
     "repository": {
