@@ -1,0 +1,16 @@
+{
+    "name": "@sulu/sulu-ui",
+    "description": "UI elements for the SULU CMS",
+    "scripts": {
+        "lint": "eslint ."
+    },
+    "devDependencies": {
+        "eslint": "^3.16.1",
+        "eslint-plugin-react": "^6.10.0"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sulu/sulu-ui"
+    }
+}
