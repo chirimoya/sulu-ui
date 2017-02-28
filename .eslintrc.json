@@ -1,10 +1,12 @@
 {
     "env": {
         "browser": true,
-        "es6": true
+        "es6": true,
+        "jest": true
     },
     "extends": [
         "eslint:recommended",
+        "plugin:react/recommended",
         "plugin:flowtype/recommended"
     ],
     "parser": "babel-eslint",
@@ -22,7 +24,7 @@
     "rules": {
         "indent": [
             "error",
-            "tab"
+            4
         ],
         "linebreak-style": [
             "error",
@@ -35,6 +37,26 @@
         "semi": [
             "error",
             "always"
-        ]
+        ],
+        "no-alert": [
+            "error"
+        ],
+        "flowtype/require-valid-file-annotation": [
+            "error",
+            "always",
+            {
+                "annotationStyle": "line"
+            }
+        ],
+        "flowtype/space-after-type-colon": [
+            "error",
+            "always"
+        ],
+        "flowtype/object-type-delimiter": [
+            "error",
+            "comma"
+        ],
+        "flowtype/no-dupe-keys": "error",
+        "flowtype/delimiter-dangle": "error"
     }
 }
