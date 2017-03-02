@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render data as table 1`] = `
+<table>
+  <thead>
+    <tr>
+      <th>
+        ID
+      </th>
+      <th>
+        title
+      </th>
+      <th>
+        Author
+      </th>
+      <th>
+        Date
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        1
+      </td>
+      <td>
+        Test 1
+      </td>
+      <td>
+        John Doe
+      </td>
+      <td>
+        2017-02-28T11:08:41+0100
+      </td>
+    </tr>
+    <tr>
+      <td>
+        2
+      </td>
+      <td>
+        Test 2
+      </td>
+      <td>
+        Max Mustermann
+      </td>
+      <td>
+        2017-02-22T01:08:41+0100
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;

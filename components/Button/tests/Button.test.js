@@ -11,7 +11,7 @@ test('Render children in button', () => {
 
 test('Click callback fires', () => {
     const clickSpy = jest.fn();
-    const button = shallow(<Button onClick={clickSpy}/>);
+    const button = shallow(<Button onClick={clickSpy} />);
 
     button.simulate('click');
 

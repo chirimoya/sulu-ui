@@ -5,17 +5,13 @@ import type { Element } from 'react';
 
 type Props = {
     onClick: () => void,
-    children?: Element<any>
+    children?: Element<any>,
 };
 
 export default class Button extends React.PureComponent {
     props: Props;
 
-    handleClick = () => {
-        this.props.onClick();
-    }
-
     render() {
-        return <button onClick={this.handleClick}>{this.props.children}</button>;
+        return <button onClick={this.props.onClick}>{this.props.children}</button>;
     }
 }
