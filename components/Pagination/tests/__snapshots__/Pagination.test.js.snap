@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Render pagination with page numbers 1`] = `
+<div>
+  <a
+    onClick={[Function]}
+  >
+    Previous
+  </a>
+  5
+   of 
+  10
+  <a
+    onClick={[Function]}
+  >
+    Next
+  </a>
+</div>
+`;
