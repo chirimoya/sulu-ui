@@ -19,7 +19,8 @@
     },
     "plugins": [
         "react",
-        "flowtype"
+        "flowtype",
+        "class-property"
     ],
     "rules": {
         "indent": [
@@ -63,6 +64,7 @@
         ],
         "react/jsx-key": "error",
         "react/jsx-indent": "error",
+        "react/jsx-no-bind": "error",
         "react/jsx-indent-props": "error",
         "react/jsx-equals-spacing": "error",
         "react/jsx-handler-names": "error",
@@ -89,6 +91,7 @@
         "flowtype/delimiter-dangle": [
             "error",
             "always-multiline"
-        ]
+        ],
+        "class-property/class-property-semicolon": "error"
     }
 }

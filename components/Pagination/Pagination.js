@@ -1,5 +1,6 @@
 // @flow
 import React from 'react';
+import Link from './Link';
 
 type Props = {
     current: number,
@@ -7,15 +8,15 @@ type Props = {
     onChange: (page: number) => void,
 };
 
-export default class Pagination extends React.Component {
+export default class Pagination extends React.PureComponent {
     props: Props;
 
     render() {
         return (
             <div>
-                <a onClick={() => this.props.onChange(this.props.current - 1)}>Previous</a>
+                <Link page={this.props.current - 1} onClick={this.props.onChange}>Previous</Link>
                 {this.props.current} of {this.props.total}
-                <a onClick={() => this.props.onChange(this.props.current + 1)}>Next</a>
+                <Link page={this.props.current + 1} onClick={this.props.onChange}>Next</Link>
             </div>
         );
     }
