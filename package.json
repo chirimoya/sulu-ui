@@ -1,7 +1,11 @@
 {
-    "name": "@sulu/sulu-ui",
+    "name": "sulu-ui",
+    "version": "0.0.3",
     "description": "UI elements for the Sulu CMS",
     "main": "./lib/index.js",
+    "files": [
+        "lib/index.js"
+    ],
     "scripts": {
         "test": "jest",
         "lint": "eslint .",
